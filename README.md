@@ -2,6 +2,8 @@
 
 <img src="icons/icon_128.png" alt="Cambly Transcript Copier" width="64" />
 
+**Improve your English with AI-powered feedback on every lesson.**
+
 A Chrome extension that extracts your Cambly lesson transcript and copies it to the clipboard — pre-loaded with a revision prompt — ready to paste into any AI chat (Claude, ChatGPT, Gemini, etc.).
 
 ## What it does
@@ -19,7 +21,9 @@ After a Cambly lesson, open the past-lesson page and click **Copy Transcript**. 
 
 1. Go to a past lesson on Cambly (`cambly.com/en/student/progress/past-lesson/...`)
 2. Click the **Copy Transcript** button that appears on the page
-3. Paste into any AI chat (Claude, ChatGPT, Gemini, etc.)
+3. Paste into any AI you like 🤖
+
+![Screenshot](assets/screenshot.png)
 
 ## Revision prompt
 
