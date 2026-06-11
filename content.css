@@ -1,0 +1,55 @@
+.cambly-copier-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999999;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s, transform 0.2s;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.cambly-copier-btn:hover {
+  background-color: #e05f00;
+  transform: translateY(-1px);
+}
+
+.cambly-copier-btn:active {
+  transform: translateY(0);
+}
+
+.cambly-copier-toast {
+  position: fixed;
+  bottom: 80px;
+  right: 24px;
+  z-index: 999999;
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: cambly-copier-fade 2.5s ease-in-out forwards;
+  pointer-events: none;
+}
+
+.cambly-copier-toast.cambly-copier-toast--error {
+  background-color: #d32f2f;
+}
+
+@keyframes cambly-copier-fade {
+  0% { opacity: 0; transform: translateY(8px); }
+  10% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-8px); }
+}
